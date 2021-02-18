@@ -1,0 +1,15 @@
+#ifndef PESSOFISICA_H
+#define PESSOFISICA_H
+#include <pessoa.h>
+
+class PessoFisica : public Pessoa
+{
+protected:
+    string cpf;
+    string sexo;
+    double renda;
+public:
+    PessoFisica(string cpf, string sexo, double renda, );
+};
+
+#endif // PESSOFISICA_H
